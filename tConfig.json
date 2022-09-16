@@ -1,0 +1,33 @@
+{
+	"initoptions": {
+		"protocol": "http://",
+		"host": "localhost:4200",
+		"pathnames": [
+			"/home"
+		],
+		"languages": [
+			{ 
+				"id": 0,
+				"code": "hr",
+				"text": "Croatian"
+			},
+			{
+				 "id": 1,
+				 "code": "de",
+				 "text": "German" 
+			}
+		],
+		"currentpageonly": false,
+		"force": false,
+		"googletranslate": {
+			"enable": false,
+			"proxy": "http://localhost:8080/"
+
+		}
+	},
+	"translationoptions" : {
+		"classname": ".translate",
+		"translateblanks": true
+	},
+	"translationdata": []
+}
